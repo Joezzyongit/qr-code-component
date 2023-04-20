@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+}
+
+/* --This line of coode contains styling info about the background effect of the website-- */
+body {
+    position: relative;
+    background-color: hsl(212, 45%, 89%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5.55rem;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* The code written here holds all infect in the Div section */
+.holder {
+    height: 67vh;
+    width: 280px;
+    background-color: white;
+    border-radius: 1.1rem;
+    box-shadow: 3.9rem;
+}
+
+/* The image part */
+
+.holder img {
+    width: 256px;
+    border-radius: .680rem;
+    margin-left: 13px;
+    margin-top: 12px;
+}
+
+.holder h3 {
+    margin-bottom: 3px;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 750;
+}
+
+.holder p {
+    text-align: center;
+    color: gray;
+    line-height: 1.2;
+    margin-top: 12px;
+}
+
+/*  Footer */
+.lastpart {
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: -48%;
+}
+
+@media screen  and (max-width: 375px){
+    /* mobile phone view */
+    .lastpart{
+        display: none;
+    }
+}
+
+@media screen  and (max-width: 1140px) {
+        .lastpart{
+            display: none;
+        }
+}
